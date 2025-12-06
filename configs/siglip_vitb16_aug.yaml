@@ -1,0 +1,36 @@
+experiment:
+  seed: 42
+  output_dir: outputs/siglip_vitb16_aug
+  exp_name: siglip_vitb16_aug
+
+data:
+  root: data
+  train_csv: data/train.csv
+  val_csv: data/val.csv
+  superclass_mapping: data/Released_Data_NNDL_2025/superclass_mapping.csv
+  subclass_mapping: data/Released_Data_NNDL_2025/subclass_mapping.csv
+  num_workers: 4
+  batch_size: 32
+  image_size: 224
+
+model:
+  name: vit_base_patch16_siglip_224
+  pretrained: true
+  freeze_encoder: true
+  dropout: 0.2
+  super_classes: 4
+  sub_classes: 88
+
+train:
+  epochs: 15
+  lr: 0.0002
+  weight_decay: 0.01
+  warmup_epochs: 2
+  lr_scheduler: cosine
+  clip_grad_norm: 1.0
+  mixup_alpha: 0.1
+
+logging:
+  log_interval: 50
+  val_interval: 1
+  checkpoint_interval: 1

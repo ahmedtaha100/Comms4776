@@ -1,0 +1,607 @@
+image,super_class,sub_class
+Released_Data_NNDL_2025/train_images/train_images/2316.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/2305.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/5644.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/522.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/3608.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/2607.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/53.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/4039.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/861.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/4832.jpg,dog,"Maltese dog, Maltese terrier, Maltese"
+Released_Data_NNDL_2025/train_images/train_images/3356.jpg,bird,"oystercatcher, oyster catcher"
+Released_Data_NNDL_2025/train_images/train_images/2239.jpg,bird,"oystercatcher, oyster catcher"
+Released_Data_NNDL_2025/train_images/train_images/708.jpg,bird,"oystercatcher, oyster catcher"
+Released_Data_NNDL_2025/train_images/train_images/1477.jpg,bird,"oystercatcher, oyster catcher"
+Released_Data_NNDL_2025/train_images/train_images/1992.jpg,bird,"oystercatcher, oyster catcher"
+Released_Data_NNDL_2025/train_images/train_images/3216.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/5162.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/3426.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/4365.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/204.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/3300.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/205.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/1567.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/753.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/3213.jpg,dog,"Afghan hound, Afghan"
+Released_Data_NNDL_2025/train_images/train_images/4976.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/200.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/4232.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/1005.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/4408.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/4743.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/2118.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/1516.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/579.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/5038.jpg,dog,Shih-Tzu
+Released_Data_NNDL_2025/train_images/train_images/1470.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/1610.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/2509.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/1225.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/5505.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/1570.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/4233.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/3392.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/4888.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/4713.jpg,bird,"great grey owl, great gray owl, Strix nebulosa"
+Released_Data_NNDL_2025/train_images/train_images/2306.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/928.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/2534.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/4366.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/157.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/853.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/5369.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/4324.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/3406.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/1824.jpg,reptile,"common newt, Triturus vulgaris"
+Released_Data_NNDL_2025/train_images/train_images/3226.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/2395.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/37.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/5865.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/3466.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/4354.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/1101.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/5399.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/5199.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/4277.jpg,reptile,alligator lizard
+Released_Data_NNDL_2025/train_images/train_images/1781.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/3977.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/1328.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/2876.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/2516.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/2505.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/3231.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/5242.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/517.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/2268.jpg,dog,toy terrier
+Released_Data_NNDL_2025/train_images/train_images/5946.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/2662.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/3936.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/2408.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/2848.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/647.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/1944.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/447.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/5707.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/4617.jpg,dog,beagle
+Released_Data_NNDL_2025/train_images/train_images/4381.jpg,bird,"redshank, Tringa totanus"
+Released_Data_NNDL_2025/train_images/train_images/3118.jpg,bird,"redshank, Tringa totanus"
+Released_Data_NNDL_2025/train_images/train_images/1848.jpg,bird,"redshank, Tringa totanus"
+Released_Data_NNDL_2025/train_images/train_images/965.jpg,bird,"redshank, Tringa totanus"
+Released_Data_NNDL_2025/train_images/train_images/3974.jpg,bird,"redshank, Tringa totanus"
+Released_Data_NNDL_2025/train_images/train_images/2862.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/5394.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/5992.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/697.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/3073.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/3422.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/5503.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/644.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/4854.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/5489.jpg,dog,Rhodesian ridgeback
+Released_Data_NNDL_2025/train_images/train_images/3290.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/1226.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/1074.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/4334.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/5813.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/59.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/4708.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/2591.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/4283.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/2293.jpg,dog,"basset, basset hound"
+Released_Data_NNDL_2025/train_images/train_images/2763.jpg,bird,"king penguin, Aptenodytes patagonica"
+Released_Data_NNDL_2025/train_images/train_images/4923.jpg,bird,"king penguin, Aptenodytes patagonica"
+Released_Data_NNDL_2025/train_images/train_images/2569.jpg,bird,"king penguin, Aptenodytes patagonica"
+Released_Data_NNDL_2025/train_images/train_images/2053.jpg,bird,"king penguin, Aptenodytes patagonica"
+Released_Data_NNDL_2025/train_images/train_images/2189.jpg,bird,"king penguin, Aptenodytes patagonica"
+Released_Data_NNDL_2025/train_images/train_images/4914.jpg,bird,"brambling, Fringilla montifringilla"
+Released_Data_NNDL_2025/train_images/train_images/3181.jpg,bird,"brambling, Fringilla montifringilla"
+Released_Data_NNDL_2025/train_images/train_images/5566.jpg,bird,"brambling, Fringilla montifringilla"
+Released_Data_NNDL_2025/train_images/train_images/4478.jpg,bird,"brambling, Fringilla montifringilla"
+Released_Data_NNDL_2025/train_images/train_images/5151.jpg,bird,"brambling, Fringilla montifringilla"
+Released_Data_NNDL_2025/train_images/train_images/3397.jpg,bird,"goldfinch, Carduelis carduelis"
+Released_Data_NNDL_2025/train_images/train_images/633.jpg,bird,"goldfinch, Carduelis carduelis"
+Released_Data_NNDL_2025/train_images/train_images/798.jpg,bird,"goldfinch, Carduelis carduelis"
+Released_Data_NNDL_2025/train_images/train_images/5835.jpg,bird,"goldfinch, Carduelis carduelis"
+Released_Data_NNDL_2025/train_images/train_images/2077.jpg,bird,"goldfinch, Carduelis carduelis"
+Released_Data_NNDL_2025/train_images/train_images/2728.jpg,bird,"indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+Released_Data_NNDL_2025/train_images/train_images/1442.jpg,bird,"indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+Released_Data_NNDL_2025/train_images/train_images/4515.jpg,bird,"indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+Released_Data_NNDL_2025/train_images/train_images/2357.jpg,bird,"indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+Released_Data_NNDL_2025/train_images/train_images/84.jpg,bird,"indigo bunting, indigo finch, indigo bird, Passerina cyanea"
+Released_Data_NNDL_2025/train_images/train_images/863.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/6032.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/4735.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/466.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/2683.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/1031.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/2889.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/39.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/2072.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/1822.jpg,dog,"bloodhound, sleuthhound"
+Released_Data_NNDL_2025/train_images/train_images/3239.jpg,reptile,terrapin
+Released_Data_NNDL_2025/train_images/train_images/4553.jpg,reptile,terrapin
+Released_Data_NNDL_2025/train_images/train_images/5343.jpg,reptile,terrapin
+Released_Data_NNDL_2025/train_images/train_images/1637.jpg,reptile,terrapin
+Released_Data_NNDL_2025/train_images/train_images/18.jpg,reptile,terrapin
+Released_Data_NNDL_2025/train_images/train_images/5652.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/107.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/1714.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/3491.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/4411.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/2209.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/4500.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/1701.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/2738.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/5043.jpg,reptile,"European fire salamander, Salamandra salamandra"
+Released_Data_NNDL_2025/train_images/train_images/1745.jpg,bird,cock
+Released_Data_NNDL_2025/train_images/train_images/5077.jpg,bird,cock
+Released_Data_NNDL_2025/train_images/train_images/5099.jpg,bird,cock
+Released_Data_NNDL_2025/train_images/train_images/3723.jpg,bird,cock
+Released_Data_NNDL_2025/train_images/train_images/3628.jpg,bird,cock
+Released_Data_NNDL_2025/train_images/train_images/3145.jpg,dog,Australian terrier
+Released_Data_NNDL_2025/train_images/train_images/22.jpg,dog,Australian terrier
+Released_Data_NNDL_2025/train_images/train_images/4768.jpg,dog,Australian terrier
+Released_Data_NNDL_2025/train_images/train_images/6224.jpg,dog,Australian terrier
+Released_Data_NNDL_2025/train_images/train_images/1715.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/23.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/2334.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/3948.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/5221.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/2340.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/1027.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/2982.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/3613.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/2611.jpg,dog,"Pekinese, Pekingese, Peke"
+Released_Data_NNDL_2025/train_images/train_images/31.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/1232.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/311.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/5572.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/5333.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/5024.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/4021.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/404.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/25.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/310.jpg,bird,ptarmigan
+Released_Data_NNDL_2025/train_images/train_images/4425.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/5826.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/5907.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/5197.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/4063.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/1722.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/498.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/3793.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/1643.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/979.jpg,reptile,"Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis"
+Released_Data_NNDL_2025/train_images/train_images/4279.jpg,bird,"red-backed sandpiper, dunlin, Erolia alpina"
+Released_Data_NNDL_2025/train_images/train_images/1110.jpg,bird,"red-backed sandpiper, dunlin, Erolia alpina"
+Released_Data_NNDL_2025/train_images/train_images/2321.jpg,bird,"red-backed sandpiper, dunlin, Erolia alpina"
+Released_Data_NNDL_2025/train_images/train_images/2234.jpg,bird,"red-backed sandpiper, dunlin, Erolia alpina"
+Released_Data_NNDL_2025/train_images/train_images/485.jpg,bird,"red-backed sandpiper, dunlin, Erolia alpina"
+Released_Data_NNDL_2025/train_images/train_images/4721.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/3765.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/1804.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/1292.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/1872.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/4524.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/4699.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/1167.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/4399.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/3583.jpg,reptile,"ringneck snake, ring-necked snake, ring snake"
+Released_Data_NNDL_2025/train_images/train_images/5149.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/1327.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/5182.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/2047.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/3253.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/4652.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/4883.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/6108.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/3033.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/2933.jpg,dog,Japanese spaniel
+Released_Data_NNDL_2025/train_images/train_images/4709.jpg,dog,"cairn, cairn terrier"
+Released_Data_NNDL_2025/train_images/train_images/1081.jpg,dog,"cairn, cairn terrier"
+Released_Data_NNDL_2025/train_images/train_images/3919.jpg,dog,"cairn, cairn terrier"
+Released_Data_NNDL_2025/train_images/train_images/2326.jpg,dog,"cairn, cairn terrier"
+Released_Data_NNDL_2025/train_images/train_images/2870.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/4999.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/33.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/3758.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/1525.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/1431.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/3015.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/4769.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/4186.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/2339.jpg,reptile,"green lizard, Lacerta viridis"
+Released_Data_NNDL_2025/train_images/train_images/5205.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/5340.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/5003.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/5659.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/5839.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/34.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/1577.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/4922.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/244.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/2759.jpg,reptile,triceratops
+Released_Data_NNDL_2025/train_images/train_images/86.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/588.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/2256.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/2625.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/4127.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/5361.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/402.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/2463.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/2799.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/2372.jpg,bird,black grouse
+Released_Data_NNDL_2025/train_images/train_images/3053.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/1982.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/5253.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/5381.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/3772.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/907.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/4543.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/2083.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/5028.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/6122.jpg,dog,papillon
+Released_Data_NNDL_2025/train_images/train_images/5478.jpg,reptile,"loggerhead, loggerhead turtle, Caretta caretta"
+Released_Data_NNDL_2025/train_images/train_images/2389.jpg,reptile,"loggerhead, loggerhead turtle, Caretta caretta"
+Released_Data_NNDL_2025/train_images/train_images/2230.jpg,reptile,"loggerhead, loggerhead turtle, Caretta caretta"
+Released_Data_NNDL_2025/train_images/train_images/4450.jpg,reptile,"loggerhead, loggerhead turtle, Caretta caretta"
+Released_Data_NNDL_2025/train_images/train_images/6047.jpg,reptile,"loggerhead, loggerhead turtle, Caretta caretta"
+Released_Data_NNDL_2025/train_images/train_images/1223.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/1270.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/3739.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/3002.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/5849.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/3404.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/2069.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/3651.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/2895.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/43.jpg,reptile,"green snake, grass snake"
+Released_Data_NNDL_2025/train_images/train_images/661.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/5823.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/1875.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/5318.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/3773.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/715.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/1010.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/2153.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/2411.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/249.jpg,bird,vulture
+Released_Data_NNDL_2025/train_images/train_images/1294.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/920.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/236.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/5664.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/662.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/2161.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/3640.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/4566.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/155.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/3789.jpg,bird,magpie
+Released_Data_NNDL_2025/train_images/train_images/5324.jpg,bird,"house finch, linnet, Carpodacus mexicanus"
+Released_Data_NNDL_2025/train_images/train_images/6063.jpg,bird,"house finch, linnet, Carpodacus mexicanus"
+Released_Data_NNDL_2025/train_images/train_images/3776.jpg,bird,"house finch, linnet, Carpodacus mexicanus"
+Released_Data_NNDL_2025/train_images/train_images/5191.jpg,bird,"house finch, linnet, Carpodacus mexicanus"
+Released_Data_NNDL_2025/train_images/train_images/5244.jpg,bird,"house finch, linnet, Carpodacus mexicanus"
+Released_Data_NNDL_2025/train_images/train_images/5091.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/732.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/4742.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/4625.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/1711.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/143.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/2570.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/3372.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/5419.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/4723.jpg,reptile,"Gila monster, Heloderma suspectum"
+Released_Data_NNDL_2025/train_images/train_images/5729.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/2729.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/6030.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/1130.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/993.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/5168.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/5981.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/1665.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/4562.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/456.jpg,bird,chickadee
+Released_Data_NNDL_2025/train_images/train_images/5970.jpg,reptile,"American chameleon, anole, Anolis carolinensis"
+Released_Data_NNDL_2025/train_images/train_images/3233.jpg,reptile,"American chameleon, anole, Anolis carolinensis"
+Released_Data_NNDL_2025/train_images/train_images/4687.jpg,reptile,"American chameleon, anole, Anolis carolinensis"
+Released_Data_NNDL_2025/train_images/train_images/1237.jpg,reptile,"American chameleon, anole, Anolis carolinensis"
+Released_Data_NNDL_2025/train_images/train_images/148.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/5263.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/618.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/335.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/1961.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/3192.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/1661.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/5373.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/6180.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/229.jpg,reptile,"spotted salamander, Ambystoma maculatum"
+Released_Data_NNDL_2025/train_images/train_images/109.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/4931.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/5817.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/6046.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/203.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/1523.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/1091.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/792.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/1911.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/2208.jpg,dog,Blenheim spaniel
+Released_Data_NNDL_2025/train_images/train_images/2585.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/3662.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/3305.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/4596.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/4531.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/919.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/3565.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/5427.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/5751.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/2560.jpg,bird,"bald eagle, American eagle, Haliaeetus leucocephalus"
+Released_Data_NNDL_2025/train_images/train_images/1548.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/6261.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/1788.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/542.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/1049.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/6267.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/3236.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/5009.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/5894.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/5115.jpg,reptile,"African chameleon, Chamaeleo chamaeleon"
+Released_Data_NNDL_2025/train_images/train_images/2477.jpg,bird,hen
+Released_Data_NNDL_2025/train_images/train_images/1792.jpg,bird,hen
+Released_Data_NNDL_2025/train_images/train_images/2951.jpg,bird,hen
+Released_Data_NNDL_2025/train_images/train_images/5492.jpg,bird,hen
+Released_Data_NNDL_2025/train_images/train_images/6225.jpg,bird,hen
+Released_Data_NNDL_2025/train_images/train_images/169.jpg,dog,standard schnauzer
+Released_Data_NNDL_2025/train_images/train_images/2892.jpg,dog,standard schnauzer
+Released_Data_NNDL_2025/train_images/train_images/1361.jpg,dog,standard schnauzer
+Released_Data_NNDL_2025/train_images/train_images/5246.jpg,dog,standard schnauzer
+Released_Data_NNDL_2025/train_images/train_images/4859.jpg,reptile,banded gecko
+Released_Data_NNDL_2025/train_images/train_images/3161.jpg,reptile,banded gecko
+Released_Data_NNDL_2025/train_images/train_images/2217.jpg,reptile,banded gecko
+Released_Data_NNDL_2025/train_images/train_images/2280.jpg,reptile,banded gecko
+Released_Data_NNDL_2025/train_images/train_images/2618.jpg,dog,miniature schnauzer
+Released_Data_NNDL_2025/train_images/train_images/3171.jpg,dog,miniature schnauzer
+Released_Data_NNDL_2025/train_images/train_images/317.jpg,dog,miniature schnauzer
+Released_Data_NNDL_2025/train_images/train_images/5278.jpg,dog,miniature schnauzer
+Released_Data_NNDL_2025/train_images/train_images/806.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/6230.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/6200.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/4108.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/4486.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/1744.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/3555.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/4159.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/5377.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/5290.jpg,dog,Chihuahua
+Released_Data_NNDL_2025/train_images/train_images/4714.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/5561.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/5097.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/1288.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/2442.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/790.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/3632.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/2051.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/4284.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/3810.jpg,reptile,"bullfrog, Rana catesbeiana"
+Released_Data_NNDL_2025/train_images/train_images/4344.jpg,dog,Lakeland terrier
+Released_Data_NNDL_2025/train_images/train_images/2243.jpg,dog,Lakeland terrier
+Released_Data_NNDL_2025/train_images/train_images/3122.jpg,dog,Lakeland terrier
+Released_Data_NNDL_2025/train_images/train_images/4184.jpg,dog,Lakeland terrier
+Released_Data_NNDL_2025/train_images/train_images/1765.jpg,bird,"American coot, marsh hen, mud hen, water hen, Fulica americana"
+Released_Data_NNDL_2025/train_images/train_images/1297.jpg,bird,"American coot, marsh hen, mud hen, water hen, Fulica americana"
+Released_Data_NNDL_2025/train_images/train_images/4671.jpg,bird,"American coot, marsh hen, mud hen, water hen, Fulica americana"
+Released_Data_NNDL_2025/train_images/train_images/2761.jpg,bird,"American coot, marsh hen, mud hen, water hen, Fulica americana"
+Released_Data_NNDL_2025/train_images/train_images/945.jpg,bird,"American coot, marsh hen, mud hen, water hen, Fulica americana"
+Released_Data_NNDL_2025/train_images/train_images/2798.jpg,dog,"Boston bull, Boston terrier"
+Released_Data_NNDL_2025/train_images/train_images/819.jpg,dog,"Boston bull, Boston terrier"
+Released_Data_NNDL_2025/train_images/train_images/3872.jpg,dog,"Boston bull, Boston terrier"
+Released_Data_NNDL_2025/train_images/train_images/5995.jpg,dog,"Boston bull, Boston terrier"
+Released_Data_NNDL_2025/train_images/train_images/6229.jpg,dog,West Highland white terrier
+Released_Data_NNDL_2025/train_images/train_images/1414.jpg,dog,West Highland white terrier
+Released_Data_NNDL_2025/train_images/train_images/3533.jpg,dog,West Highland white terrier
+Released_Data_NNDL_2025/train_images/train_images/5872.jpg,dog,West Highland white terrier
+Released_Data_NNDL_2025/train_images/train_images/1566.jpg,bird,"European gallinule, Porphyrio porphyrio"
+Released_Data_NNDL_2025/train_images/train_images/5006.jpg,bird,"European gallinule, Porphyrio porphyrio"
+Released_Data_NNDL_2025/train_images/train_images/4732.jpg,bird,"European gallinule, Porphyrio porphyrio"
+Released_Data_NNDL_2025/train_images/train_images/2580.jpg,bird,"European gallinule, Porphyrio porphyrio"
+Released_Data_NNDL_2025/train_images/train_images/4443.jpg,bird,"European gallinule, Porphyrio porphyrio"
+Released_Data_NNDL_2025/train_images/train_images/3211.jpg,reptile,"tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui"
+Released_Data_NNDL_2025/train_images/train_images/3107.jpg,reptile,"tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui"
+Released_Data_NNDL_2025/train_images/train_images/3893.jpg,reptile,"tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui"
+Released_Data_NNDL_2025/train_images/train_images/3560.jpg,reptile,"tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui"
+Released_Data_NNDL_2025/train_images/train_images/6102.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/4226.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/440.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/1969.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/832.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/4564.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/4237.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/4752.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/5752.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/6280.jpg,bird,"water ouzel, dipper"
+Released_Data_NNDL_2025/train_images/train_images/4623.jpg,dog,"Sealyham terrier, Sealyham"
+Released_Data_NNDL_2025/train_images/train_images/1122.jpg,dog,"Sealyham terrier, Sealyham"
+Released_Data_NNDL_2025/train_images/train_images/5351.jpg,dog,"Sealyham terrier, Sealyham"
+Released_Data_NNDL_2025/train_images/train_images/2555.jpg,dog,"Sealyham terrier, Sealyham"
+Released_Data_NNDL_2025/train_images/train_images/2016.jpg,dog,"Scotch terrier, Scottish terrier, Scottie"
+Released_Data_NNDL_2025/train_images/train_images/1008.jpg,dog,"Scotch terrier, Scottish terrier, Scottie"
+Released_Data_NNDL_2025/train_images/train_images/5413.jpg,dog,"Scotch terrier, Scottish terrier, Scottie"
+Released_Data_NNDL_2025/train_images/train_images/2091.jpg,dog,"Scotch terrier, Scottish terrier, Scottie"
+Released_Data_NNDL_2025/train_images/train_images/1311.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/446.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/794.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/5844.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/5680.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/5920.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/1685.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/6121.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/4310.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/2718.jpg,reptile,"hognose snake, puff adder, sand viper"
+Released_Data_NNDL_2025/train_images/train_images/3369.jpg,dog,soft-coated wheaten terrier
+Released_Data_NNDL_2025/train_images/train_images/6010.jpg,dog,soft-coated wheaten terrier
+Released_Data_NNDL_2025/train_images/train_images/4997.jpg,dog,soft-coated wheaten terrier
+Released_Data_NNDL_2025/train_images/train_images/5167.jpg,dog,soft-coated wheaten terrier
+Released_Data_NNDL_2025/train_images/train_images/1438.jpg,bird,"junco, snowbird"
+Released_Data_NNDL_2025/train_images/train_images/1090.jpg,bird,"junco, snowbird"
+Released_Data_NNDL_2025/train_images/train_images/4271.jpg,bird,"junco, snowbird"
+Released_Data_NNDL_2025/train_images/train_images/6076.jpg,bird,"junco, snowbird"
+Released_Data_NNDL_2025/train_images/train_images/3808.jpg,bird,"junco, snowbird"
+Released_Data_NNDL_2025/train_images/train_images/2303.jpg,bird,"ruddy turnstone, Arenaria interpres"
+Released_Data_NNDL_2025/train_images/train_images/2036.jpg,bird,"ruddy turnstone, Arenaria interpres"
+Released_Data_NNDL_2025/train_images/train_images/5386.jpg,bird,"ruddy turnstone, Arenaria interpres"
+Released_Data_NNDL_2025/train_images/train_images/398.jpg,bird,"ruddy turnstone, Arenaria interpres"
+Released_Data_NNDL_2025/train_images/train_images/4389.jpg,bird,"ruddy turnstone, Arenaria interpres"
+Released_Data_NNDL_2025/train_images/train_images/4964.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/5911.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/2702.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/381.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/420.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/2425.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/1334.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/761.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/1050.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/372.jpg,reptile,"thunder snake, worm snake, Carphophis amoenus"
+Released_Data_NNDL_2025/train_images/train_images/6140.jpg,bird,"ostrich, Struthio camelus"
+Released_Data_NNDL_2025/train_images/train_images/795.jpg,bird,"ostrich, Struthio camelus"
+Released_Data_NNDL_2025/train_images/train_images/3017.jpg,bird,"ostrich, Struthio camelus"
+Released_Data_NNDL_2025/train_images/train_images/3041.jpg,bird,"ostrich, Struthio camelus"
+Released_Data_NNDL_2025/train_images/train_images/3846.jpg,bird,"ostrich, Struthio camelus"
+Released_Data_NNDL_2025/train_images/train_images/1478.jpg,reptile,"whiptail, whiptail lizard"
+Released_Data_NNDL_2025/train_images/train_images/4917.jpg,reptile,"whiptail, whiptail lizard"
+Released_Data_NNDL_2025/train_images/train_images/5079.jpg,reptile,"whiptail, whiptail lizard"
+Released_Data_NNDL_2025/train_images/train_images/593.jpg,reptile,"whiptail, whiptail lizard"
+Released_Data_NNDL_2025/train_images/train_images/3568.jpg,dog,"Dandie Dinmont, Dandie Dinmont terrier"
+Released_Data_NNDL_2025/train_images/train_images/793.jpg,dog,"Dandie Dinmont, Dandie Dinmont terrier"
+Released_Data_NNDL_2025/train_images/train_images/5094.jpg,dog,"Dandie Dinmont, Dandie Dinmont terrier"
+Released_Data_NNDL_2025/train_images/train_images/6160.jpg,dog,"Dandie Dinmont, Dandie Dinmont terrier"
+Released_Data_NNDL_2025/train_images/train_images/572.jpg,bird,bulbul
+Released_Data_NNDL_2025/train_images/train_images/5044.jpg,bird,bulbul
+Released_Data_NNDL_2025/train_images/train_images/5121.jpg,bird,bulbul
+Released_Data_NNDL_2025/train_images/train_images/2333.jpg,bird,bulbul
+Released_Data_NNDL_2025/train_images/train_images/3183.jpg,bird,bulbul
+Released_Data_NNDL_2025/train_images/train_images/1673.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/1981.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/5830.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/2311.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/1521.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/3218.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/5183.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/5338.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/2006.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/4049.jpg,reptile,"African crocodile, Nile crocodile, Crocodylus niloticus"
+Released_Data_NNDL_2025/train_images/train_images/2963.jpg,dog,giant schnauzer
+Released_Data_NNDL_2025/train_images/train_images/3973.jpg,dog,giant schnauzer
+Released_Data_NNDL_2025/train_images/train_images/5426.jpg,dog,giant schnauzer
+Released_Data_NNDL_2025/train_images/train_images/159.jpg,dog,giant schnauzer
+Released_Data_NNDL_2025/train_images/train_images/3912.jpg,bird,"albatross, mollymawk"
+Released_Data_NNDL_2025/train_images/train_images/2312.jpg,bird,"albatross, mollymawk"
+Released_Data_NNDL_2025/train_images/train_images/2658.jpg,bird,"albatross, mollymawk"
+Released_Data_NNDL_2025/train_images/train_images/160.jpg,bird,"albatross, mollymawk"
+Released_Data_NNDL_2025/train_images/train_images/2216.jpg,bird,"albatross, mollymawk"
+Released_Data_NNDL_2025/train_images/train_images/3468.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/2751.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/4679.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/2384.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/4632.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/5937.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/6114.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/1413.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/1451.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/460.jpg,reptile,"axolotl, mud puppy, Ambystoma mexicanum"
+Released_Data_NNDL_2025/train_images/train_images/6175.jpg,dog,"Airedale, Airedale terrier"
+Released_Data_NNDL_2025/train_images/train_images/1308.jpg,dog,"Airedale, Airedale terrier"
+Released_Data_NNDL_2025/train_images/train_images/2531.jpg,dog,"Airedale, Airedale terrier"
+Released_Data_NNDL_2025/train_images/train_images/5769.jpg,dog,"Airedale, Airedale terrier"
+Released_Data_NNDL_2025/train_images/train_images/4337.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/2214.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/5384.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/870.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/5998.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/2049.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/4649.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/5261.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/4204.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/5720.jpg,reptile,"tree frog, tree-frog"
+Released_Data_NNDL_2025/train_images/train_images/5671.jpg,bird,bustard
+Released_Data_NNDL_2025/train_images/train_images/917.jpg,bird,bustard
+Released_Data_NNDL_2025/train_images/train_images/212.jpg,bird,bustard
+Released_Data_NNDL_2025/train_images/train_images/5126.jpg,bird,bustard
+Released_Data_NNDL_2025/train_images/train_images/6179.jpg,bird,bustard
+Released_Data_NNDL_2025/train_images/train_images/4608.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/4853.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/1526.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/1505.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/2400.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/3735.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/2373.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/4069.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/289.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/1310.jpg,reptile,"American alligator, Alligator mississipiensis"
+Released_Data_NNDL_2025/train_images/train_images/414.jpg,dog,"Tibetan terrier, chrysanthemum dog"
+Released_Data_NNDL_2025/train_images/train_images/5496.jpg,dog,"Tibetan terrier, chrysanthemum dog"
+Released_Data_NNDL_2025/train_images/train_images/478.jpg,dog,"Tibetan terrier, chrysanthemum dog"
+Released_Data_NNDL_2025/train_images/train_images/3227.jpg,dog,"Tibetan terrier, chrysanthemum dog"
+Released_Data_NNDL_2025/train_images/train_images/1369.jpg,reptile,agama
+Released_Data_NNDL_2025/train_images/train_images/3165.jpg,reptile,agama
+Released_Data_NNDL_2025/train_images/train_images/412.jpg,reptile,agama
+Released_Data_NNDL_2025/train_images/train_images/1709.jpg,reptile,agama
+Released_Data_NNDL_2025/train_images/train_images/1250.jpg,dog,"silky terrier, Sydney silky"
+Released_Data_NNDL_2025/train_images/train_images/5565.jpg,dog,"silky terrier, Sydney silky"
+Released_Data_NNDL_2025/train_images/train_images/1817.jpg,dog,"silky terrier, Sydney silky"
+Released_Data_NNDL_2025/train_images/train_images/3644.jpg,dog,"silky terrier, Sydney silky"
+Released_Data_NNDL_2025/train_images/train_images/3455.jpg,reptile,mud turtle
+Released_Data_NNDL_2025/train_images/train_images/2462.jpg,reptile,mud turtle
+Released_Data_NNDL_2025/train_images/train_images/4485.jpg,reptile,mud turtle
+Released_Data_NNDL_2025/train_images/train_images/255.jpg,reptile,mud turtle
+Released_Data_NNDL_2025/train_images/train_images/5491.jpg,reptile,"leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea"
+Released_Data_NNDL_2025/train_images/train_images/5385.jpg,reptile,"leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea"
+Released_Data_NNDL_2025/train_images/train_images/4300.jpg,reptile,"leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea"
+Released_Data_NNDL_2025/train_images/train_images/2807.jpg,reptile,"leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea"
+Released_Data_NNDL_2025/train_images/train_images/5185.jpg,reptile,"frilled lizard, Chlamydosaurus kingi"
+Released_Data_NNDL_2025/train_images/train_images/901.jpg,reptile,"frilled lizard, Chlamydosaurus kingi"
+Released_Data_NNDL_2025/train_images/train_images/2669.jpg,reptile,"frilled lizard, Chlamydosaurus kingi"
+Released_Data_NNDL_2025/train_images/train_images/2122.jpg,reptile,"frilled lizard, Chlamydosaurus kingi"
+Released_Data_NNDL_2025/train_images/train_images/2210.jpg,reptile,"common iguana, iguana, Iguana iguana"
+Released_Data_NNDL_2025/train_images/train_images/2615.jpg,reptile,"common iguana, iguana, Iguana iguana"
+Released_Data_NNDL_2025/train_images/train_images/3420.jpg,reptile,"common iguana, iguana, Iguana iguana"
+Released_Data_NNDL_2025/train_images/train_images/574.jpg,reptile,"common iguana, iguana, Iguana iguana"
+Released_Data_NNDL_2025/train_images/train_images/3517.jpg,reptile,"common iguana, iguana, Iguana iguana"
+Released_Data_NNDL_2025/train_images/train_images/2937.jpg,bird,pelican
+Released_Data_NNDL_2025/train_images/train_images/1401.jpg,bird,pelican
+Released_Data_NNDL_2025/train_images/train_images/3582.jpg,bird,pelican
+Released_Data_NNDL_2025/train_images/train_images/5208.jpg,bird,pelican
+Released_Data_NNDL_2025/train_images/train_images/3238.jpg,bird,pelican
+Released_Data_NNDL_2025/train_images/train_images/4981.jpg,bird,dowitcher
+Released_Data_NNDL_2025/train_images/train_images/5546.jpg,bird,dowitcher
+Released_Data_NNDL_2025/train_images/train_images/3857.jpg,bird,dowitcher
+Released_Data_NNDL_2025/train_images/train_images/3916.jpg,bird,dowitcher
+Released_Data_NNDL_2025/train_images/train_images/2567.jpg,bird,dowitcher
+Released_Data_NNDL_2025/train_images/train_images/4767.jpg,dog,"Lhasa, Lhasa apso"
+Released_Data_NNDL_2025/train_images/train_images/2482.jpg,dog,"Lhasa, Lhasa apso"
+Released_Data_NNDL_2025/train_images/train_images/5347.jpg,dog,"Lhasa, Lhasa apso"
+Released_Data_NNDL_2025/train_images/train_images/4975.jpg,dog,"Lhasa, Lhasa apso"
+Released_Data_NNDL_2025/train_images/train_images/4376.jpg,bird,"robin, American robin, Turdus migratorius"
+Released_Data_NNDL_2025/train_images/train_images/5926.jpg,bird,"robin, American robin, Turdus migratorius"
+Released_Data_NNDL_2025/train_images/train_images/5925.jpg,bird,"robin, American robin, Turdus migratorius"
+Released_Data_NNDL_2025/train_images/train_images/1396.jpg,bird,"robin, American robin, Turdus migratorius"
+Released_Data_NNDL_2025/train_images/train_images/6154.jpg,bird,"robin, American robin, Turdus migratorius"
