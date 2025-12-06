@@ -34,6 +34,26 @@ def mixup_loss(logits, targets, criterion, lam):
     return criterion(logits, targets)
 
 
+def val_thresholds(model, loader, device, super_percentile=5.0, sub_percentile=5.0):
+    model.eval()
+    super_confs = []
+    sub_confs = []
+    with torch.no_grad():
+        for batch in loader:
+            images = batch["image"].to(device)
+            super_logits, sub_logits = model(images)
+            super_probs = torch.softmax(super_logits, dim=1)
+            sub_probs = torch.softmax(sub_logits, dim=1)
+            super_conf, _ = torch.max(super_probs, dim=1)
+            sub_conf, _ = torch.max(sub_probs, dim=1)
+            super_confs.extend(super_conf.cpu().tolist())
+            sub_confs.extend(sub_conf.cpu().tolist())
+
+    super_thr = float(torch.quantile(torch.tensor(super_confs), super_percentile / 100.0))
+    sub_thr = float(torch.quantile(torch.tensor(sub_confs), sub_percentile / 100.0))
+    return super_thr, sub_thr
+
+
 def train_one_epoch(model, loader, optimizer, scaler, device, cfg, logger):
     model.train()
     ce = nn.CrossEntropyLoss()
@@ -140,6 +160,9 @@ def main():
     scaler = amp.GradScaler(enabled=device.type == "cuda")
     best_super = 0.0
     best_sub = 0.0
+    threshold_super = None
+    threshold_sub = None
+
     for epoch in range(1, cfg.train.epochs + 1):
         logger.info(f"epoch {epoch}/{cfg.train.epochs}")
         train_loss, train_super_acc, train_sub_acc = train_one_epoch(model, train_loader, optimizer, scaler, device, cfg, logger)
@@ -155,6 +178,10 @@ def main():
                 val_metrics["super_f1"],
                 val_metrics["sub_f1"],
             )
+
+            threshold_super, threshold_sub = val_thresholds(model, val_loader, device)
+            logger.info(f"Auto thresholds -> SUPER: {threshold_super:.3f}, SUB: {threshold_sub:.3f}")
+
             if val_metrics["super_acc"] > best_super:
                 best_super = val_metrics["super_acc"]
             if val_metrics["sub_acc"] > best_sub:
@@ -170,6 +197,8 @@ def main():
                 "sub_to_idx": sub_to_idx,
                 "best_super": best_super,
                 "best_sub": best_sub,
+                "threshold_super": threshold_super,
+                "threshold_sub": threshold_sub,
             }, ckpt_path)
         logger.info(f"train loss {train_loss:.4f} super_acc {train_super_acc:.4f} sub_acc {train_sub_acc:.4f}")
     final_path = Path(cfg.experiment.output_dir) / "final.pth"

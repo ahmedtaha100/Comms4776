@@ -1,5 +1,6 @@
 import argparse
 import csv
+import numpy as np
 from pathlib import Path
 from typing import List
 from PIL import Image
@@ -24,6 +25,25 @@ class TestImageDataset(Dataset):
         image = Image.open(path).convert("RGB")
         return {"image": self.transform(image), "name": path.name}
 
+def compute_auto_thresholds(model, val_loader, device, super_percentile=5.0, sub_percentile=5.0):
+    model.eval()
+    super_confs = []
+    sub_confs = []
+    with torch.no_grad():
+        for batch in val_loader:
+            images = batch["image"].to(device)
+            super_logits, sub_logits = model(images)
+            super_probs = torch.softmax(super_logits, dim=1)
+            sub_probs = torch.softmax(sub_logits, dim=1)
+            super_conf, _ = torch.max(super_probs, dim=1)
+            sub_conf, _ = torch.max(sub_probs, dim=1)
+            super_confs.extend(super_conf.cpu().tolist())
+            sub_confs.extend(sub_conf.cpu().tolist())
+
+    super_thr = float(np.percentile(super_confs, super_percentile))
+    sub_thr = float(np.percentile(sub_confs, sub_percentile))
+    print(f"Auto thresholds -> SUPER: {super_thr:.3f}, SUB: {sub_thr:.3f}")
+    return super_thr, sub_thr
 
 def main():
     parser = argparse.ArgumentParser()
@@ -43,10 +63,15 @@ def main():
     num_super = len(super_classes)
     num_sub = len(sub_classes)
 
+    novel_super_label = num_super - 1
+    novel_sub_label = num_sub - 1
+
     model = HierarchicalClassifier(cfg.model.name, cfg.model.pretrained, cfg.model.freeze_encoder, cfg.model.dropout, num_super, num_sub)
     ckpt = torch.load(args.checkpoint, map_location=device)
     model.load_state_dict(ckpt["model_state"])
     model = model.to(device)
+    threshold_super = ckpt.get("threshold_super", 0.5)
+    threshold_sub = ckpt.get("threshold_sub", 0.5)
     model.eval()
 
     _, val_tf = build_transforms(cfg.data.image_size)
@@ -60,8 +85,26 @@ def main():
             images = batch["image"].to(device)
             names = batch["name"]
             super_logits, sub_logits = model(images)
-            super_preds = super_logits.argmax(dim=1).cpu().tolist()
-            sub_preds = sub_logits.argmax(dim=1).cpu().tolist()
+
+            super_probs = torch.softmax(super_logits, dim=1)
+            sub_probs = torch.softmax(sub_logits, dim=1)
+
+            super_conf, super_pred = torch.max(super_probs, dim=1)
+            sub_conf, sub_pred = torch.max(sub_probs, dim=1)
+
+            is_novel_super = super_conf < threshold_super
+            is_novel_sub = sub_conf < threshold_sub
+            is_novel_sub = is_novel_sub | is_novel_super
+
+            super_preds_with_novel = super_pred.clone()
+            sub_preds_with_novel = sub_pred.clone()
+
+            super_preds_with_novel[is_novel_super] = novel_super_label
+            sub_preds_with_novel[is_novel_sub] = novel_sub_label
+
+            super_preds = super_preds_with_novel.cpu().tolist()
+            sub_preds = sub_preds_with_novel.cpu().tolist()
+
             for name, s, sub in zip(names, super_preds, sub_preds):
                 records.append({"image": name, "superclass_index": s, "subclass_index": sub})
 
