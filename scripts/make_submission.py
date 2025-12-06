@@ -25,7 +25,8 @@ class TestImageDataset(Dataset):
         image = Image.open(path).convert("RGB")
         return {"image": self.transform(image), "name": path.name}
 
-def compute_auto_thresholds(model, val_loader, device, super_percentile=5.0, sub_percentile=5.0):
+
+def compute_novel_thresholds(model, val_loader, device, super_percentile=5.0, sub_percentile=5.0):
     model.eval()
     super_confs = []
     sub_confs = []
@@ -40,10 +41,10 @@ def compute_auto_thresholds(model, val_loader, device, super_percentile=5.0, sub
             super_confs.extend(super_conf.cpu().tolist())
             sub_confs.extend(sub_conf.cpu().tolist())
 
-    super_thr = float(np.percentile(super_confs, super_percentile))
-    sub_thr = float(np.percentile(sub_confs, sub_percentile))
-    print(f"Auto thresholds -> SUPER: {super_thr:.3f}, SUB: {sub_thr:.3f}")
-    return super_thr, sub_thr
+    super_threshold = float(np.percentile(super_confs, super_percentile))
+    sub_threshold = float(np.percentile(sub_confs, sub_percentile))
+    return super_threshold, sub_threshold
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -70,8 +71,8 @@ def main():
     ckpt = torch.load(args.checkpoint, map_location=device)
     model.load_state_dict(ckpt["model_state"])
     model = model.to(device)
-    threshold_super = ckpt.get("threshold_super", 0.5)
-    threshold_sub = ckpt.get("threshold_sub", 0.5)
+    threshold_super = ckpt.get("threshold_super")
+    threshold_sub = ckpt.get("threshold_sub")
     model.eval()
 
     _, val_tf = build_transforms(cfg.data.image_size)
