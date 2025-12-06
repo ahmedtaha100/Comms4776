@@ -1,13 +1,14 @@
 \documentclass{article}
-\usepackage{neurips_2023}
+\usepackage[final]{neurips_2023}
 \usepackage[numbers]{natbib}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{algorithm}
 \usepackage{algorithmic}
+\usepackage{tikz}
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.17}
+\pgfplotsset{compat=1.18}
 
 \title{Hierarchical Transfer Learning for Fine-Grained Animal Classification}
 
@@ -145,7 +146,7 @@ True reptile & 0 & 0 & 227 \\
 CLIP finetune misclassified 27 validation samples (see \texttt{outputs/clip_vitb32_errors.csv}); most errors are fine-grained sub-class confusions within the correct super-class.
 
 \subsection{Robustness}
-Overall robustness on CLIP finetune: super\_acc 1.0, sub\_acc 0.9554, joint\_acc 0.9554. Novel sub-class list was not provided; the robustness script supports filtering when available; robustness to true novel sub-classes remains a limitation.
+Overall robustness on CLIP finetune: super\_acc 1.0, sub\_acc 0.9554, joint\_acc 0.9554. Novel sub-class labels were not provided in the dataset; the robustness script supports filtering when available; robustness to true novel sub-classes remains a limitation.
 
 \section{Conclusion}
 ResNet-50 finetuning yields the best hierarchical performance with minimal complexity, outperforming CLIP/SigLIP finetunes on this dataset. Finetuning clearly beats freezing; augmentation provided modest or neutral gains. Future work: evaluate zero-shot/few-shot handling of truly novel sub-classes, address class imbalance, and add calibration/uncertainty estimates.
