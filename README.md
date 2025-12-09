@@ -33,7 +33,7 @@ Simple PyTorch/TIMM pipeline for hierarchical image classification (super: bird/
 
 ## Submissions
 - Evaluate a checkpoint on val: `PYTHONPATH=src python scripts/eval_checkpoint.py --config <config> --checkpoint <ckpt> --num-workers 0`.
-- Make a leaderboard CSV from test images: `PYTHONPATH=src python scripts/make_submission.py --config <config> --checkpoint <ckpt> --test-dir data/Released_Data_NNDL_2025/test_images/test_images --output submission.csv` (a `submission.csv` from the final model is already included).
+- Make a leaderboard CSV from test images: `PYTHONPATH=src python scripts/make_submission.py --config <config> --checkpoint <ckpt> --test-dir data/Released_Data_NNDL_2025/test_images/test_images --val-dir data/val.csv --output submission.csv` (a `submission.csv` from the final model is already included).
 - Metrics logged: super/sub accuracy, joint accuracy (both correct), and macro F1 for each level.
 
 ## Layout

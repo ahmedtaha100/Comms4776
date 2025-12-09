@@ -5,11 +5,12 @@ from pathlib import Path
 from typing import List
 from PIL import Image
 import torch
+import numpy as np
 from torch.utils.data import DataLoader, Dataset
 from config import load_config
 from data import build_transforms, load_mapping
 from models import HierarchicalClassifier
-from utils import get_device
+from utils import get_device, load_image_paths_from_csv
 
 
 class TestImageDataset(Dataset):
@@ -24,7 +25,6 @@ class TestImageDataset(Dataset):
         path = self.image_paths[idx]
         image = Image.open(path).convert("RGB")
         return {"image": self.transform(image), "name": path.name}
-
 
 def compute_novel_thresholds(model, val_loader, device, super_percentile=5.0, sub_percentile=5.0):
     model.eval()
@@ -51,6 +51,7 @@ def main():
     parser.add_argument("--config", type=str, default="configs/default.yaml")
     parser.add_argument("--checkpoint", type=str, required=True)
     parser.add_argument("--test-dir", type=str, default="data/Released_Data_NNDL_2025/test_images/test_images")
+    parser.add_argument("--val-dir", type=str, required=True, default="data/val.csv")
     parser.add_argument("--output", type=str, default="submission.csv")
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--num-workers", type=int, default=4)
@@ -63,7 +64,6 @@ def main():
     sub_classes = load_mapping(cfg.data.subclass_mapping)
     num_super = len(super_classes)
     num_sub = len(sub_classes)
-
     novel_super_label = num_super - 1
     novel_sub_label = num_sub - 1
 
@@ -76,6 +76,28 @@ def main():
     model.eval()
 
     _, val_tf = build_transforms(cfg.data.image_size)
+    val_csv = Path(args.val_dir)
+    val_paths = load_image_paths_from_csv(val_csv)
+
+    if len(val_paths) == 0:
+        raise ValueError(f"No image paths found in validation CSV: {args.val_dir}")
+
+    val_dataset = TestImageDataset(val_paths, val_tf)
+
+    val_loader = DataLoader(
+        val_dataset,
+        batch_size=args.batch_size,
+        shuffle=False,
+        num_workers=args.num_workers,
+        pin_memory=True,
+    )
+    super_threshold, sub_threshold = compute_novel_thresholds(
+        model, val_loader, device,
+        super_percentile=0.5,
+        sub_percentile=1
+    )
+    print(f"Computed novel class thresholds - Superclass: {super_threshold}, Subclass: {sub_threshold}")
+
     image_paths = sorted(Path(args.test_dir).glob("*.jpg"))
     dataset = TestImageDataset(image_paths, val_tf)
     loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers, pin_memory=True)
@@ -86,27 +108,19 @@ def main():
             images = batch["image"].to(device)
             names = batch["name"]
             super_logits, sub_logits = model(images)
-
             super_probs = torch.softmax(super_logits, dim=1)
             sub_probs = torch.softmax(sub_logits, dim=1)
 
             super_conf, super_pred = torch.max(super_probs, dim=1)
             sub_conf, sub_pred = torch.max(sub_probs, dim=1)
 
-            is_novel_super = super_conf < threshold_super
-            is_novel_sub = sub_conf < threshold_sub
-            is_novel_sub = is_novel_sub | is_novel_super
+            is_novel_super = super_conf < super_threshold
+            is_novel_sub = (sub_conf < sub_threshold) | is_novel_super
 
-            super_preds_with_novel = super_pred.clone()
-            sub_preds_with_novel = sub_pred.clone()
+            super_pred[is_novel_super] = novel_super_label
+            sub_pred[is_novel_sub] = novel_sub_label
 
-            super_preds_with_novel[is_novel_super] = novel_super_label
-            sub_preds_with_novel[is_novel_sub] = novel_sub_label
-
-            super_preds = super_preds_with_novel.cpu().tolist()
-            sub_preds = sub_preds_with_novel.cpu().tolist()
-
-            for name, s, sub in zip(names, super_preds, sub_preds):
+            for name, s, sub in zip(names, super_pred.cpu().tolist(), sub_pred.cpu().tolist()):
                 records.append({"image": name, "superclass_index": s, "subclass_index": sub})
 
     out_path = Path(args.output)
