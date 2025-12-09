@@ -140,7 +140,6 @@ def main():
     scaler = amp.GradScaler(enabled=device.type == "cuda")
     best_super = 0.0
     best_sub = 0.0
-
     for epoch in range(1, cfg.train.epochs + 1):
         logger.info(f"epoch {epoch}/{cfg.train.epochs}")
         train_loss, train_super_acc, train_sub_acc = train_one_epoch(model, train_loader, optimizer, scaler, device, cfg, logger)
