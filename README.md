@@ -36,6 +36,11 @@ Simple PyTorch/TIMM pipeline for hierarchical image classification (super: bird/
 - Make a leaderboard CSV from test images: `PYTHONPATH=src python scripts/make_submission.py --config <config> --checkpoint <ckpt> --test-dir data/Released_Data_NNDL_2025/test_images/test_images --val-dir data/val.csv --output submission.csv` (a `submission.csv` from the final model is already included).
 - Metrics logged: super/sub accuracy, joint accuracy (both correct), and macro F1 for each level.
 
+## Checkpoints
+- Download from v1.0 release: https://github.com/ahmedtaha100/Comms4776/releases/tag/v1.0
+  - `final.pth` → place at `outputs/resnet50_baseline/final.pth` (best model)
+  - `final2.pth` → place at `outputs/clip_vitb32_finetune/final.pth`
+
 ## Layout
 
 - `configs/` YAML configs for runs.
