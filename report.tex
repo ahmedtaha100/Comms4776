@@ -152,6 +152,21 @@ CLIP finetune misclassified 27 validation samples (see \texttt{outputs/clip_vitb
 \subsection{Robustness}
 Overall robustness on CLIP finetune: super\_acc 1.0, sub\_acc 0.9554, joint\_acc 0.9554. Novel sub-class labels were not provided in the dataset; the robustness script supports filtering when available; robustness to true novel sub-classes remains a limitation.
 
+\section{Discussion}
+Our experiments on the given models highlight several key findings regarding hierarchical transfer learning for fine-grained animal classification:
+
+\textbf{ResNet-50 as a strong baseline:} Despite the availability of more advanced vision-language models like CLIP and SigLIP, a simple ResNet-50 finetune achieved the best sub-class accuracy (97.85\%) and joint accuracy (97.85\%). This result shows the effectiveness of vision-only models when fine-tuned on domain-specific data, especially when the dataset size is moderate and the task is well-aligned with the pre-training distribution.
+
+\textbf{Finetuning vs.\ freezing:} Across all models, finetuning the encoder consistently outperformed freezing it. This suggests that adapting the entire model to the target dataset is critical for achieving high accuracy, especially for fine-grained sub-class distinctions. Frozen encoders, while computationally efficient, struggled to match the performance of their fine-tuned counterparts, particularly for sub-class accuracy.
+
+\textbf{Impact of augmentation and regularization:} Techniques like mixup, dropout, and RandAugment provided modest or neutral gains in most cases. For ResNet-50, augmentation did not significantly improve performance beyond the baseline finetune. This indicates that the model's robustness to distribution shifts and fine-grained distinctions was already strong, and additional augmentation had limited impact.
+
+\textbf{Vision-language models:} While CLIP and SigLIP demonstrated strong performance, they did not surpass ResNet-50 in this specific task. CLIP finetune achieved a sub-class accuracy of 97.19\%, slightly below ResNet-50, while SigLIP finetune reached 97.69\%. These results suggest that the advantages of vision-language models, such as zero-shot capabilities, may not translate directly to tasks where the dataset is labeled and the focus is on fine-grained distinctions.
+
+\textbf{Robustness and limitations:} Robustness to novel sub-classes remains an open challenge. While the dataset did not explicitly label novel sub-classes, the robustness evaluation script supports future analysis when such labels are available. Addressing this limitation will be critical for deploying models in real-world scenarios where unseen classes are common.
+
+Overall, our findings emphasize the importance of task-specific evaluation when selecting models and training strategies. While advanced architectures like CLIP and SigLIP offer unique capabilities, simpler models like ResNet-50 can still excel in well-defined, labeled tasks with moderate dataset sizes. Future work should explore zero-shot and few-shot learning for novel sub-classes, as well as methods for improving model calibration and uncertainty estimation.
+
 \section{Conclusion}
 ResNet-50 finetuning yields the best hierarchical performance with minimal complexity, outperforming CLIP/SigLIP finetunes on this dataset. Finetuning clearly beats freezing; augmentation provided modest or neutral gains. Future work: evaluate zero-shot/few-shot handling of truly novel sub-classes, address class imbalance, and add calibration/uncertainty estimates.
 
