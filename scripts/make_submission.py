@@ -98,7 +98,10 @@ def main():
     )
     print(f"Computed novel class thresholds - Superclass: {super_threshold}, Subclass: {sub_threshold}")
 
-    image_paths = sorted(Path(args.test_dir).glob("*.jpg"))
+    image_paths = sorted(
+        Path(args.test_dir).glob("*.jpg"),
+        key=lambda p: int(p.stem)
+    )
     dataset = TestImageDataset(image_paths, val_tf)
     loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers, pin_memory=True)
 
